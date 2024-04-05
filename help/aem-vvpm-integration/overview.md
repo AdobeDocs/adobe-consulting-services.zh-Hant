@@ -2,7 +2,7 @@
 title: Veeva Vault整合概述
 description: Veeva Vault整合概述
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: 005c738818ab622a342ddc3a94e94638e344d058
+source-git-commit: 2e47baa4a255c34b3ca0b8631650dd5d8960fea8
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -33,8 +33,7 @@ ht-degree: 0%
 此整合旨在支援兩個主要使用案例：
 
 1. 內容核准 — 當在AEM中建立新內容或編輯現有內容時，內容必須核准為可在VVPM中使用，以支援生命科學的醫療、法律、法規(MLR)核准程式。
-
-2. 內容管理 — 透過在PromoMats中針對源自AEM的檔案建立數位策略（例如電子郵件、簡報、網站）與其在AEM中建立的元素（例如標誌、攝影、圖形）之間的關係，來提供資產使用率的可見度。
+1. 內容管理 — 透過在PromoMats中針對源自AEM的檔案建立數位策略（例如電子郵件、簡報、網站）與其在AEM中建立的元素（例如標誌、攝影、圖形）之間的關係，來提供資產使用率的可見度。
 
 其優點包括：
 
@@ -67,7 +66,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >此整合目前將AEM視為內容同步處理的信任來源。
->
 
 ## 取得整合
 
