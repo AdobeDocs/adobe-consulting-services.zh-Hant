@@ -2,7 +2,7 @@
 title: Veeva Vault整合概述
 description: Veeva Vault整合概述
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: 4d27e7ecca662b2082a18621becb0b8ec7735824
+source-git-commit: 005c738818ab622a342ddc3a94e94638e344d058
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -101,3 +101,4 @@ ht-degree: 0%
 ### 請求Veeva Vault PromoMats支援
 
 有時候，遇到的問題與Veeva Vault PromoMats例項的運作有關。 如果是這種情況，可能會將您的Veeva Vault PromoMats管理員導向建立支援票證，具有 [Veeva支援](http://support.veeva.com/). 您可以導覽至「 」，檢視Veeva例項的狀態 [Veeva Trust](http://trust.veeva.com/).
+

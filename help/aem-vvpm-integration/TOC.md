@@ -1,9 +1,9 @@
 ---
 sub-product: Adobe Experience Manager
-user-guide-title: AEM <> VVPM整合
-breadcrumb-title: AEM <> VVPM整合
-user-guide-description: AEM <> VVPM整合檔案。
-source-git-commit: 0138059852e57c2da9e7cbdfe437ae864dbe4cbc
+user-guide-title: AEM \<\> VVPM整合
+breadcrumb-title: AEM \<\> VVPM整合
+user-guide-description: AEM \<\> VVPM整合檔案。
+source-git-commit: 005c738818ab622a342ddc3a94e94638e344d058
 workflow-type: tm+mt
 source-wordcount: '17'
 ht-degree: 17%
@@ -11,7 +11,7 @@ ht-degree: 17%
 ---
 
 
-# AEM &lt;> VVPM整合 {#aem-vvpm-integration}
+# AEM \&lt;\> VVPM整合 {#aem-vvpm-integration}
 
 + [概觀](overview.md)
 + [使用情況](usage.md)
