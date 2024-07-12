@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->這項功能無法立即在產品中使用。 實作需要Adobe諮詢維護合約。 請洽詢您的Adobe代表以瞭解更多資訊。
+>這項功能無法立即在產品中使用。 實作需要Adobe Consulting維護合約。 請洽詢您的Adobe代表以瞭解更多資訊。
 >
 
 ## 原理和功能
@@ -45,10 +45,10 @@ ht-degree: 0%
 
 整合有什麼作用？
 
-* 支援將AEM網站頁面、資產、內容片段和體驗片段傳送至VPM。 AEM頁面、內容片段和體驗片段可以熒幕擷圖PDF或影像的形式傳送。 AEM Assets二進位檔會依原樣傳送。
+* 支援將AEM網站頁面、Assets、內容片段和體驗片段傳送至VPM。 AEM頁面、內容片段和體驗片段可以熒幕擷圖PDF或影像的形式傳送。 AEM Assets二進位檔會依原樣傳送。
 * 支援從AEM到VPM可設定的特定中繼資料元素的手動和自動同步。
 * 支援從VPM到AEM可設定的特定中繼資料元素的手動和自動同步。
-* 支援VPM中AEM網站頁面、資產、內容片段和體驗片段之間的關係，以自動化內容關係。
+* 支援AEM Site Pages、Assets、內容片段和VVPM中的體驗片段之間的關係，以自動化內容關係。
 * 支援為多種裝置型別產生轉譯。
 
 >[!NOTE]
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 流程圖詳細資料（對應至上述步驟）：
 
-* **步驟1**  — 假設您已擁有或正在取得Veeva Vault PromoMats和Adobe Experience Manager的授權。
-* **步驟2**  — 需要簽署新的銷售訂單(SO)，其中列出與Adobe Consulting的維護合約，才能利用整合。
-* **步驟3**  — 安裝、啟動及設定整合套件。
+* **步驟1** — 假設您已擁有或正在取得Veeva儲存庫促銷活動和Adobe Experience Manager的授權。
+* **步驟2** — 必須簽署一份新的銷售訂單(SO)，其中概述與Adobe Consulting的維護合約，才能使用整合功能。
+* **步驟3** — 安裝、啟動及設定整合套件。
 
 ## 支援
 
@@ -87,16 +87,16 @@ ht-degree: 0%
 
 ### 請求整合或Adobe Experience Manager支援
 
-支援票證可透過Adobe客戶服務進行記錄。 您的Adobe Experience Cloud管理員需要登入 [Adobe Admin Console](https://adminconsole.adobe.com/)，按一下「支援」標籤，並建立案例。 若有任何整合問題，請務必包含下列資訊：
+支援票證可透過Adobe客戶服務進行記錄。 您的Adobe Experience Cloud管理員需要登入[Adobe Admin Console](https://adminconsole.adobe.com/)，按一下[支援]索引標籤，並建立案例。 若有任何整合問題，請務必包含下列資訊：
 
-* **程式標題**： `AEM - Veeva Vault Integration`
-* **程式擁有者**： `Data Engineering`
-* **說明**： `Description of the issue`
+* **處理程式標題**： `AEM - Veeva Vault Integration`
+* **處理序擁有者**： `Data Engineering`
+* **描述**： `Description of the issue`
 * **聯絡點**： `The email address(es) for relavant AEM point of contacts for your organization.`
 * **AEM執行個體URL**： `Place the Adobe Experience Manager instance url here.`
 * **Veeva執行個體URL**： `Place the Veeva Vault PromoMats instance url here.`
 
 ### 請求Veeva Vault PromoMats支援
 
-有時候，遇到的問題與Veeva Vault PromoMats例項的運作有關。 如果是這種情況，可能會將您的Veeva Vault PromoMats管理員導向建立支援票證，具有 [Veeva支援](http://support.veeva.com/). 您可以導覽至「 」，檢視Veeva例項的狀態 [Veeva Trust](http://trust.veeva.com/).
+有時候，遇到的問題與Veeva Vault PromoMats例項的運作有關。 如果是這種情況，可能會將您的Veeva儲存庫促銷資料管理員導向建立具有[Veeva支援](http://support.veeva.com/)的支援票證。 導覽至[Veeva Trust](http://trust.veeva.com/)，即可檢視Veeva執行個體的狀態。
 

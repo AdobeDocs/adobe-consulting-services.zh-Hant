@@ -36,8 +36,8 @@ ht-degree: 1%
 * 不支援將VPM視覺註解從VPM同步至AEM。
 * 整合不會將內容從VVPM匯入至AEM。
 * 不支援中繼資料驗證。
-* 檔案數量會根據Veeva授權而有所限制。 另請參閱 [授許可權制](#veeva-license-limitations).
-* API呼叫的數量會根據Veeva授權而有所限制。 如需詳細資訊，請參閱 [API限制](https://developer.veevavault.com/docs/#what-are-rate-limits). 另請參閱 [授許可權制](#veeva-license-limitations).
+* 檔案數量會根據Veeva授權而有所限制。 請參閱[授許可權制](#veeva-license-limitations)。
+* API呼叫的數量會根據Veeva授權而有所限制。 如需詳細資訊，請參閱[API限制](https://developer.veevavault.com/docs/#what-are-rate-limits)。 請參閱[授許可權制](#veeva-license-limitations)。
 
 ## Veeva授許可權制
 
