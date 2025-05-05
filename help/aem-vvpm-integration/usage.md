@@ -37,7 +37,7 @@ ht-degree: 0%
 
 #### 套件安裝
 
-若要安裝套件，請透過入門電子郵件中提供的連結下載套件。 [按一下這裡可以找到安裝AEM套件的詳細指示。](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?#installing-packages)
+若要安裝套件，請透過入門電子郵件中提供的連結下載套件。 [按一下這裡可以找到安裝AEM套件的詳細指示。](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?lang=zh-Hant&#installing-packages)
 
 #### POM安裝
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >如果使用Cloud Manager，安全方法是遵循此處找到的[密碼保護的Maven存放庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=en#password-protected-maven-repositories)的步驟。
+   >如果使用Cloud Manager，安全方法是遵循此處找到的[密碼保護的Maven存放庫](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=zh-Hant#password-protected-maven-repositories)的步驟。
    >
 
    ```
@@ -257,12 +257,12 @@ c.屬性型別。 `Text`或`Multiline Text`。
 
 如果使用AEM 6.5.5+：
 
-* [在AEM中建立使用者](https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html?#create-a-user)
-* [在AEM](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?#permissions-in-aem)中為使用者新增許可權
+* [在AEM中建立使用者](https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html?lang=zh-Hant&#create-a-user)
+* [在AEM](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=zh-Hant&#permissions-in-aem)中為使用者新增許可權
 
 如果使用AEMCloud Service：
 
-* [使用AEMCloud Service管理使用者](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?#accessing)
+* [使用AEMCloud Service管理使用者](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=zh-Hant&#accessing)
 
 AEM服務使用者需要下列許可權，才能存取將轉換成PDF/影像並推送至Veeva的內容：
 
