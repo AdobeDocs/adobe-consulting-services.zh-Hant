@@ -3,9 +3,10 @@ product: adobe experience manager
 solution: Experience Manager
 description: 諮詢Experience Manager檔案
 type: Documentation
-git-repo: https://github.com/AdobeDocs/adobe-consulting-services.zh-Hant
+git-repo: https://github.com/Adobe-Enterprise-Docs/adobe-consulting-services.zh-Hant
 index: y
-source-git-commit: e2dac4b36fb94d72b72ef6f73a77e3f566539444
+hide: n
+source-git-commit: d36298f9c8abf2859e2a8fc9be92d2fcae8d60cf
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 54%
@@ -39,4 +40,4 @@ ToCs
 * `title`
 * `description`
 
-有關中繼資料的其他資訊，請參閱 [內部撰寫指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html).
+在[內部撰寫指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html)中找到有關中繼資料的其他資訊。
