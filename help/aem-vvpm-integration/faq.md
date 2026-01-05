@@ -2,10 +2,10 @@
 title: Veeva Vault整合常見問題集
 description: Veeva Vault整合常見問題集
 exl-id: c308ebb3-7881-4094-9f35-c67a96fb5ab1
-source-git-commit: e4a5e55ac9b79a8de7dfa8ddd3d0ad99560917b8
+source-git-commit: b024e4295b5b37030c1524342832400c279c650a
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 **整合是否支援Veeva連結檔案？ 如果沒有，支援哪些關聯性型別？**
 
-不適用。 請參閱[Veeva檔案](https://vaulthelp2.vod309.com/wordpress/admin-user-help/documents-admin-user-help/about-document-relationships/)。 「已連結」檔案（參考關係型別）是無法透過API建立或刪除的標準關係型別之一，因為它們具有特殊的儲存庫行為。 元件、支援檔案和任何不在此清單中的其他專案，應該能夠透過AEM Veeva雲端設定進行設定。
+不行。請參閱[Veeva檔案](https://vaulthelp2.vod309.com/wordpress/admin-user-help/documents-admin-user-help/about-document-relationships/)。 「已連結」檔案（參考關係型別）是無法透過API建立或刪除的標準關係型別之一，因為它們具有特殊的儲存庫行為。 元件、支援檔案和任何不在此清單中的其他專案，應該能夠透過AEM Veeva雲端設定來設定。
 
 **整合是否支援AEM模組化內容？**
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 否，目前不可以。
 
-**整合是否將Veeva視覺註解同步至AEM？**
+**整合是否會將Veeva視覺註解同步至AEM？**
 
-否，目前不可以。 視覺註解只能透過API作為PDF存取。
+否，目前不可以。 視覺註解只能透過API as a PDF存取。
 
 **我們如何設定整合所同步之VVPM檔案的許可權？**
 
