@@ -2,7 +2,7 @@
 title: Veeva Vault整合概述
 description: Veeva Vault整合概述
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: 2e47baa4a255c34b3ca0b8631650dd5d8960fea8
+source-git-commit: b024e4295b5b37030c1524342832400c279c650a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -33,22 +33,22 @@ ht-degree: 0%
 此整合旨在支援兩個主要使用案例：
 
 1. 內容核准 — 當在AEM中建立新內容或編輯現有內容時，內容必須核准為可在VVPM中使用，以支援生命科學的醫療、法律、法規(MLR)核准程式。
-1. 內容管理 — 透過在PromoMats中針對源自AEM的檔案建立數位策略（例如電子郵件、簡報、網站）與其在AEM中建立的元素（例如標誌、攝影、圖形）之間的關係，來提供資產使用率的可見度。
+1. 內容管理 — 透過在促銷活動中針對源自AEM的檔案建立數位策略（例如電子郵件、簡報、網站）與其在AEM中建立的元素（例如標誌、攝影、圖形）之間的關係，來提供資產使用率的可見度。
 
 其優點包括：
 
 * 維護資產和內容的單一信任來源，避免跨數位存放庫重複。
-* 運用Veeva Vault進行許可權和合規性管理，並運用AEM進行同級最佳和資產最佳以及內容建立/交付。
+* 運用Veeva Vault進行許可權和合規性管理，並使用AEM進行同級最佳和資產最佳以及內容建立/交付。
 * 協助在AEM和Veeva Vault之間自動移動內容和中繼資料。
 * 減少傳送內容至Veeva以供核准工作流程的人工工作。
 * 每個系統都有其優勢，聯結器可協助在系統之間自動移動內容，以加速上市時間。
 
 整合有什麼作用？
 
-* 支援將AEM網站頁面、Assets、內容片段和體驗片段傳送至VPM。 AEM頁面、內容片段和體驗片段可以熒幕擷圖PDF或影像的形式傳送。 AEM Assets二進位檔會依原樣傳送。
+* 支援將AEM網站頁面、Assets、內容片段和體驗片段傳送至VPM。 AEM頁面、內容片段和體驗片段可以熒幕擷圖PDF或影像形式傳送。 AEM Assets二進位檔會依原樣傳送。
 * 支援從AEM到VPM可設定的特定中繼資料元素的手動和自動同步。
 * 支援從VPM到AEM可設定的特定中繼資料元素的手動和自動同步。
-* 支援AEM Site Pages、Assets、內容片段和VVPM中的體驗片段之間的關係，以自動化內容關係。
+* 支援VVPM中AEM網站頁面、Assets、內容片段和體驗片段之間的關係，以自動化內容關係。
 * 支援為多種裝置型別產生轉譯。
 
 >[!NOTE]
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 請依照下方的流程圖和流程圖詳細資訊，請求並設定整合。
 
-![要求存取權](assets/integration-request.png)
+![請求存取權](assets/integration-request.png)
 
 流程圖詳細資料（對應至上述步驟）：
 
@@ -99,4 +99,3 @@ ht-degree: 0%
 ### 請求Veeva Vault PromoMats支援
 
 有時候，遇到的問題與Veeva Vault PromoMats例項的運作有關。 如果是這種情況，可能會將您的Veeva儲存庫促銷資料管理員導向建立具有[Veeva支援](http://support.veeva.com/)的支援票證。 導覽至[Veeva Trust](http://trust.veeva.com/)，即可檢視Veeva執行個體的狀態。
-
