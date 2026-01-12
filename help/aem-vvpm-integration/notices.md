@@ -2,7 +2,7 @@
 title: Veeva Vault整合注意事項
 description: Veeva Vault整合注意事項
 exl-id: 1a188671-d123-4475-a607-65743ba0dadd
-source-git-commit: b024e4295b5b37030c1524342832400c279c650a
+source-git-commit: b4261448e34cdcee9c28410a9d3cd8dbcc9212fa
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 1%
@@ -44,4 +44,3 @@ ht-degree: 1%
 您可以瀏覽至VVPM一般設定，監控執行個體限制。
 
 ![Veeva限制](assets/veeva-limits.png)
-

@@ -2,7 +2,7 @@
 title: Veeva Vault整合使用
 description: Veeva Vault整合使用
 exl-id: efff7af1-eb25-4a1d-b7ef-52e3336970ff
-source-git-commit: b024e4295b5b37030c1524342832400c279c650a
+source-git-commit: b4261448e34cdcee9c28410a9d3cd8dbcc9212fa
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 3%
@@ -271,7 +271,6 @@ AEM服務使用者需要下列許可權，才能存取將轉換成PDF/影像並�
 >
 > 這些動作必須以每個系統的管理員身分執行。
 > 在建立使用者和設定許可權時，您必須遵守組織安全性標準。
->
 
 #### Veeva使用者建立
 
@@ -281,7 +280,7 @@ AEM服務使用者需要下列許可權，才能存取將轉換成PDF/影像並�
 
    ![導覽至Veeva使用者](assets/veeva-user-navigate.png)
 
-2. 填寫所需的輸入。 最簡單的設定是將`License Type`設定為`Full User`，並將`Security Profile`設定為`Vault Owner`。 完成時儲存。
+1. 填寫所需的輸入。 最簡單的設定是將`License Type`設定為`Full User`，並將`Security Profile`設定為`Vault Owner`。 完成時儲存。
 
    ![建立Veeva使用者](assets/veeva-user-create.png)
 
