@@ -3,13 +3,12 @@ product: adobe experience manager
 solution: Experience Manager
 description: 諮詢Experience Manager檔案
 type: Documentation
-git-repo: https://github.com/Adobe-Enterprise-Docs/adobe-consulting-services.zh-Hant
-index: y
-author: Anon
-source-git-commit: ac36c3ae49021c2b66234c8664df0969995aba62
+git-repo: https://github.com/AdobeDocs/adobe-consulting-services.en
+index: true
+source-git-commit: f491b48a151904f13becc146beab52600c9cef46
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 54%
+source-wordcount: '94'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +21,7 @@ GitHub編寫系統中的中繼資料為階層式，而且會定義以下相對�
 1. ToC
 1. 文章
 
-metadata.md 檔案中所定義的中繼資料會套用到整個存放庫，但可以在 ToC 和文章層級被覆寫。 中繼資料的任何覆寫都應該盡量在最低層級進行。
+metadata.md檔案中定義的中繼資料會套用至整個存放庫，但可以在ToC和文章層級覆寫。 中繼資料的任何覆寫都應該儘可能在最低層級進行。
 
 metadata.md
 
