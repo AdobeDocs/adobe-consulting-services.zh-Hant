@@ -5,7 +5,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 description: 諮詢Experience Manager檔案
 type: Documentation
-git-repo: https://github.com/AdobeDocs/adobe-consulting-services.en
+git-repo: https://github.com/AdobeDocs/adobe-consulting-services.zh-Hant
 index: true
 source-git-commit: 962068b966448989329330b3f62ee4748cba017d
 workflow-type: tm+mt
