@@ -1,13 +1,15 @@
 ---
 product: adobe experience manager
 solution: Experience Manager
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 description: 諮詢Experience Manager檔案
 type: Documentation
 git-repo: https://github.com/AdobeDocs/adobe-consulting-services.zh-Hant
 index: true
-source-git-commit: f491b48a151904f13becc146beab52600c9cef46
+source-git-commit: 962068b966448989329330b3f62ee4748cba017d
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: 94
 ht-degree: 2%
 
 ---
