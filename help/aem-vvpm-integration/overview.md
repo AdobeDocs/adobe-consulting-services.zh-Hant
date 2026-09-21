@@ -2,13 +2,14 @@
 title: Veeva Vault整合概述
 description: Veeva Vault整合概述
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: e192249d7c6485000cadb5389f555c9e98d8a83e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 02aa1622ee171cd56ec9cdeb6bdef04b5d5464b5
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '695'
 ht-degree: 0%
-
 ---
-
 # 開始使用Veeva Vault PromoMats與Adobe Experience Manager整合
 
 此整合可管理您的內容、強制實行許可權和合規性，同時利用同級體驗傳遞中的第一名。
@@ -87,7 +88,7 @@ ht-degree: 0%
 
 ### 請求整合或Adobe Experience Manager支援
 
-支援票證可透過Adobe客戶服務進行記錄。 您的Adobe Experience Cloud管理員需要登入[Adobe Admin Console](https://adminconsole.adobe.com/)，按一下[支援]索引標籤，並建立案例。 若有任何整合問題，請務必包含下列資訊：
+支援票證可透過Adobe客戶服務進行記錄。 您的Adobe Experience Cloud管理員需要登入[Adobe Admin Console](https://adminconsole.adobe.com/)、按一下「支援」標籤，並建立案例。 若有任何整合問題，請務必包含下列資訊：
 
 * **處理程式標題**： `AEM - Veeva Vault Integration`
 * **處理序擁有者**： `Data Engineering`
