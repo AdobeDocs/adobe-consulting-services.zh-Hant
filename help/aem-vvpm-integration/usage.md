@@ -2,13 +2,14 @@
 title: Veeva Vault整合使用
 description: Veeva Vault整合使用
 exl-id: efff7af1-eb25-4a1d-b7ef-52e3336970ff
-source-git-commit: b4261448e34cdcee9c28410a9d3cd8dbcc9212fa
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 02aa1622ee171cd56ec9cdeb6bdef04b5d5464b5
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 3%
-
+source-wordcount: '1364'
+ht-degree: 7%
 ---
-
 # 整合使用情況
 
 ## 逐步解說
@@ -167,11 +168,11 @@ ht-degree: 3%
 
 ![設定索引標籤](assets/configuration-tab.png)
 
-1. 必要。Veeva Vault聯結器設定的標題。 此值可為任意值。 （例如`Veeva Vault Configuration`）
-2. 必要。Veeva執行個體的網域URL （例如`https://my-instance.veevavault.com/`）
-3. 必要。呼叫Veeva Vault API所需的ClientID。 此值可為任意值，主要用於偵錯。 （例如`adobe-aem-vvtechpartner`）
-4. 必要。Veeva儲存庫使用者名稱。 請參閱[Veeva使用者建立](#veeva-user-creation)。
-5. 必要。Veeva儲存庫密碼。 請參閱[Veeva使用者建立](#veeva-user-creation)。
+1. 必要。 Veeva Vault聯結器設定的標題。 此值可為任意值。 (e.g. `Veeva Vault Configuration`)
+2. 必要。 Veeva執行個體的網域URL （例如`https://my-instance.veevavault.com/`）
+3. 必要。 呼叫Veeva Vault API所需的ClientID。 此值可為任意值，主要用於偵錯。 (e.g. `adobe-aem-vvtechpartner`)
+4. 必要。 Veeva儲存庫使用者名稱。 請參閱[Veeva使用者建立](#veeva-user-creation)。
+5. 必要。 Veeva儲存庫密碼。 請參閱[Veeva使用者建立](#veeva-user-creation)。
 
 #### Adobe IO索引標籤
 
@@ -179,17 +180,17 @@ ht-degree: 3%
 
 ![Adobe IO標籤](assets/adobe-io-tab.png)
 
-1. 必要。用於建立入門電子郵件中提供的PDF影像的Adobe IO端點。 （例如`https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/trigger-action.json`）
-2. 必要。產生頁面影像的動作名稱。 此值必須是`aem-veeva-integration/get-image-async`。
-3. 必要。用於產生html影像的動作名稱。 此值必須是`aem-veeva-integration/get-pdf-async-new`。
-4. 必要。Adobe IO端點會取得入門電子郵件中提供的層代狀態。（例如`https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/get-state-value`）
-5. 必要。Adobe IO使用的AEM使用者名稱。 請參閱[AEM使用者建立](#aem-user-creation)。
-6. 必要。Adobe IO使用的AEM密碼。 請參閱[AEM使用者建立](#aem-user-creation)。
-7. 選擇性。預設逾時是讓頁面在指定的時間之前回應，過了指定的時間後AIO服務就會停止嘗試取得回應。 預設值為`30000`。
-8. 選擇性。延遲是指頁面已以200回應延遲，以讓所有影像在擷取熒幕擷圖之前呈現。 預設值為`2000`。
-9. 選擇性。熒幕擷圖/PDF產生的URL將在設定的值（以秒為單位）後過期。
-10. 選擇性。Adobe IO熒幕擷圖/PDF產生服務非同步。 AEM服務會呼叫AIO狀態端點來取得熒幕擷圖/PDF。 此屬性將決定每個狀態呼叫之間的暫停時間（毫秒）。 預設值為`10000`。
-11. 選擇性。對Adobe IO進行狀態呼叫以取得熒幕擷圖/PDF的最大重試計數。 預設值為`10`。
+1. 必要。 用於建立入門電子郵件中提供的PDF影像的Adobe IO端點。 (e.g. `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/trigger-action.json`)
+2. 必要。 產生頁面影像的動作名稱。 此值必須是`aem-veeva-integration/get-image-async`。
+3. 必要。 用於產生html影像的動作名稱。 此值必須是`aem-veeva-integration/get-pdf-async-new`。
+4. 必要。 Adobe IO端點會取得入門電子郵件中提供的層代狀態。（例如`https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/get-state-value`）
+5. 必要。 Adobe IO使用的AEM使用者名稱。 請參閱[AEM使用者建立](#aem-user-creation)。
+6. 必要。 Adobe IO使用的AEM密碼。 請參閱[AEM使用者建立](#aem-user-creation)。
+7. 選擇性。 預設逾時是讓頁面在指定的時間之前回應，過了指定的時間後AIO服務就會停止嘗試取得回應。 預設值為`30000`。
+8. 選擇性。 延遲是指頁面已以200回應延遲，以讓所有影像在擷取熒幕擷圖之前呈現。 預設值為`2000`。
+9. 選擇性。 熒幕擷圖/PDF產生的URL將在設定的值（以秒為單位）後過期。
+10. 選擇性。 Adobe IO熒幕擷圖/PDF產生服務非同步。 AEM服務會呼叫AIO狀態端點來取得熒幕擷圖/PDF。 此屬性將決定每個狀態呼叫之間的暫停時間（毫秒）。 預設值為`10000`。
+11. 選擇性。 對Adobe IO進行狀態呼叫以取得熒幕擷圖/PDF的最大重試計數。 預設值為`10`。
 
 #### 進階索引標籤
 
@@ -197,23 +198,23 @@ ht-degree: 3%
 
 ![進階索引標籤](assets/advanced-tab.png)
 
-1. 產生PDF/影像時需要。 建立PDF/影像時使用的檔案名稱模式。 `{name}`可以樣板化。 （例如`{name}-screenshot`）
-2. 選擇性。需要案頭以外的頁面熒幕擷圖的裝置型別。 有效的型別包括`Tab (iPad)`和`Mobile (iPhone X)`。
-3. 選擇性。Veeva中代表上述轉譯的轉譯型別值。 （例如`web_ready__c`）
+1. 產生PDF/影像時需要。 建立PDF/影像時使用的檔案名稱模式。 `{name}`可以樣板化。 (e.g. `{name}-screenshot`)
+2. 選擇性。 需要案頭以外的頁面熒幕擷圖的裝置型別。 有效的型別包括`Tab (iPad)`和`Mobile (iPhone X)`。
+3. 選擇性。 Veeva中代表上述轉譯的轉譯型別值。 (e.g. `web_ready__c`)
 4. 產生PDF/影像時需要。 要建立的熒幕擷圖型別。 `PDF`或`Image`。
 5. 產生PDF/影像時需要。 要產生的PDF型別。 `Print CSS Based PDF`或`Pixel Perfect Screenshot PDF`。
 6. 產生PDF/影像時需要。 要產生的影像型別。 `PNG`或`JPEG`。
-7. 必要。Veeva Vault核准觸發程式完成後要執行的工作流程。
-8. 必要。代表「已核准」的狀態屬性值。 （例如`Approved for Distribution`）
-9. 必要。Veeva Vault拒絕觸發程式完成後要執行的工作流程。
-10. 必要。代表「已拒絕/未核准」的狀態屬性值。 （例如`Rejected`）
-11. 選擇性。Veeva Vault中檔案ID的屬性名稱。 預設值為`id`。
-12. 選擇性。Veeva Vault中「狀態」的屬性名稱。 預設值為`status__v`。
-13. 選擇性。檔案修改日期的屬性名稱。 預設值為`version_modified_date__v`。
-14. 選擇性。檔案資源URL的屬性名稱。 預設值為`external_id__v`。 如果此欄位已使用，請在Veeva中建立其他欄位，並在此填入欄位名稱。 此欄位將用於Veeva以儲存AEM資源路徑。 自動化中繼資料同步時需要此專案。
-15. 選擇性。Veeva Vault中主要版本號碼的屬性名稱。 預設值為`major_version_number__v`。
-16. 選擇性。Veeva Vault中次要版本號碼的屬性名稱。 預設值為`minor_version_number__v`。
-17. 選擇性。Veeva儲存庫關係型別值。 根據此值，所有新增至頁面的資產都會呈現為相關資產。 預設值為`supporting_document__c`。
+7. 必要。 Veeva Vault核准觸發程式完成後要執行的工作流程。
+8. 必要。 代表「已核准」的狀態屬性值。 (e.g. `Approved for Distribution`)
+9. 必要。 Veeva Vault拒絕觸發程式完成後要執行的工作流程。
+10. 必要。 代表「已拒絕/未核准」的狀態屬性值。 (e.g. `Rejected`)
+11. 選擇性。 Veeva Vault中檔案ID的屬性名稱。 預設值為`id`。
+12. 選擇性。 Veeva Vault中「狀態」的屬性名稱。 預設值為`status__v`。
+13. 選擇性。 檔案修改日期的屬性名稱。 預設值為`version_modified_date__v`。
+14. 選擇性。 檔案資源URL的屬性名稱。 預設值為`external_id__v`。 如果此欄位已使用，請在Veeva中建立其他欄位，並在此填入欄位名稱。 此欄位將用於Veeva以儲存AEM資源路徑。 自動化中繼資料同步時需要此專案。
+15. 選擇性。 Veeva Vault中主要版本號碼的屬性名稱。 預設值為`major_version_number__v`。
+16. 選擇性。 Veeva Vault中次要版本號碼的屬性名稱。 預設值為`minor_version_number__v`。
+17. 選擇性。 Veeva儲存庫關係型別值。 根據此值，所有新增至頁面的資產都會呈現為相關資產。 預設值為`supporting_document__c`。
 
 #### 頁面索引標籤
 
@@ -221,15 +222,15 @@ ht-degree: 3%
 
 ![頁面標籤](assets/page-tab.png)
 
-1. 必要。將屬性從AEM對應至Veeva。
-a. AEM屬性名稱。 可從AEM屬性中選取。 （例如`jcr:title`） `{name}`可以樣板。
-b.完全在輸入的Veeva屬性名稱在Veeva中已存在。 （例如`name__v`）\
-   c.屬性型別。 `Text`或`Multiline Text`。
+1. 必要。 將屬性從AEM對應至Veeva。
+答： AEM屬性名稱。 可從AEM屬性中選取。 （例如`jcr:title`） `{name}`可以樣板。
+b. 完全在輸入的Veeva屬性名稱在Veeva中已存在。 (e.g. `name__v`)\
+   c. 屬性型別。 `Text`或`Multiline Text`。
 
-2. 必要。將屬性從Veeva對應至AEM。
-a.完全在輸入的Veeva屬性名稱在Veeva中已存在。 （例如`name__v`）
-b. AEM屬性名稱。 可從AEM屬性中選取。 （例如`jcr:title`）
-c.屬性型別。 `Text`或`Multiline Text`。
+2. 必要。 將屬性從Veeva對應至AEM。
+答： 完全在輸入的Veeva屬性名稱在Veeva中已存在。 (e.g. `name__v`)
+b. AEM屬性名稱。 可從AEM屬性中選取。 (e.g. `jcr:title`)
+c. 屬性型別。 `Text`或`Multiline Text`。
 
 
 #### 資產索引標籤
@@ -238,15 +239,15 @@ c.屬性型別。 `Text`或`Multiline Text`。
 
 ![資產標籤](assets/asset-tab.png)
 
-1. 必要。將屬性從AEM對應至Veeva。
-a. AEM屬性名稱。 可從AEM屬性中選取。 （例如`/jcr:content/metadata/jcr:title`） `{name}`可以樣板。
-b.完全在輸入的Veeva屬性名稱在Veeva中已存在。 （例如`name__v`）
-c.屬性型別。 `Text`或`Multiline Text`。
+1. 必要。 將屬性從AEM對應至Veeva。
+答： AEM屬性名稱。 可從AEM屬性中選取。 （例如`/jcr:content/metadata/jcr:title`） `{name}`可以樣板。
+b. 完全在輸入的Veeva屬性名稱在Veeva中已存在。 (e.g. `name__v`)
+c. 屬性型別。 `Text`或`Multiline Text`。
 
-2. 必要。將屬性從Veeva對應至AEM。
-a.完全在輸入的Veeva屬性名稱在Veeva中已存在。 （例如`name__v`）
-b. AEM屬性名稱。 可從AEM屬性中選取。 （例如`/jcr:content/metadata/jcr:title`）
-c.屬性型別。 `Text`或`Multiline Text`。
+2. 必要。 將屬性從Veeva對應至AEM。
+答： 完全在輸入的Veeva屬性名稱在Veeva中已存在。 (e.g. `name__v`)
+b. AEM屬性名稱。 可從AEM屬性中選取。 (e.g. `/jcr:content/metadata/jcr:title`)
+c. 屬性型別。 `Text`或`Multiline Text`。
 
 ### 其他設定
 
